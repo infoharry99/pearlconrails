@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Pearlcon Rail Services — Request a Quote or Sourcing Inquiry</title>
+  <meta name="description" content="Contact Pearlcon Rail Services Ltd for railway equipment sourcing, procurement, and supply chain enquiries. Offices in UK and Saudi Arabia.">
+  <link rel="canonical" href="https://pearlconrail.co.uk/contact.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header & Navigation -->
+  <header class="nav" role="banner">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__brand" aria-label="Pearlcon Rail Home">
+        <img src="assets/img/logo.svg" alt="Pearlcon Rail Services Ltd" class="nav__logo-svg" width="220" height="44">
+      </a>
+
+      <nav role="navigation" aria-label="Primary Navigation">
+        <ul class="nav__links">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="services.html" class="nav__link">Services</a></li>
+          <li><a href="products.html" class="nav__link">Products</a></li>
+          <li><a href="why-us.html" class="nav__link">Why Us</a></li>
+          <li><a href="clients.html" class="nav__link">Clients</a></li>
+          <li><a href="contact.html" class="nav__link is-active">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="contact.html" class="btn btn--primary">Get a Quote</a>
+        <button class="nav__mobile-toggle" aria-expanded="false" aria-label="Toggle navigation menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Inner Hero -->
+    <section class="hero--inner" aria-label="Page Header">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Contact</span>
+        </div>
+        <h1>Get in Touch</h1>
+        <p>One contact. One quote. Your sourcing starts here.</p>
+      </div>
+    </section>
+
+    <!-- Contact Split Layout -->
+    <section class="section section--light" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="grid-2" style="grid-template-columns: 1.25fr 1fr; gap: 48px; align-items: start;">
+          <!-- Left: Enquiry Form -->
+          <div style="background: var(--color-white); border: 1px solid var(--color-border); padding: 40px;">
+            <span class="eyebrow" style="color: var(--color-navy);">Direct Sourcing Request</span>
+            <h2 id="contact-heading" style="color: var(--color-navy); margin-bottom: 24px; font-size: var(--text-3xl);">Enquiry & Quotation Form</h2>
+
+            <div id="formSuccessAlert" class="form-alert form-alert--success" role="alert">
+              <strong>Thank you for contacting Pearlcon Rail.</strong> Your enquiry has been received by our procurement desk. We aim to respond within 1 business day.
+            </div>
+
+            <form id="enquiryForm" action="#" method="POST" novalidate>
+              <div class="form-group">
+                <label for="fullName" class="form-label">Full Name <span style="color: #E53E3E;">*</span></label>
+                <input type="text" id="fullName" name="fullName" class="form-input" required placeholder="e.g. John Smith">
+                <div class="form-error-msg">Please enter your full name.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="companyName" class="form-label">Company Name <span style="color: #E53E3E;">*</span></label>
+                <input type="text" id="companyName" name="companyName" class="form-input" required placeholder="e.g. Railway Transit Authority">
+                <div class="form-error-msg">Please enter your company or organisation name.</div>
+              </div>
+
+              <div class="grid-2" style="gap: 16px;">
+                <div class="form-group">
+                  <label for="country" class="form-label">Country</label>
+                  <input type="text" id="country" name="country" class="form-input" placeholder="e.g. United Kingdom">
+                </div>
+
+                <div class="form-group">
+                  <label for="phoneNumber" class="form-label">Phone Number</label>
+                  <input type="tel" id="phoneNumber" name="phoneNumber" class="form-input" placeholder="+44 ...">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="emailAddress" class="form-label">Email Address <span style="color: #E53E3E;">*</span></label>
+                <input type="email" id="emailAddress" name="emailAddress" class="form-input" required placeholder="name@company.com">
+                <div class="form-error-msg">Please enter a valid business email address.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject / Product / Service Required</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Rolling Stock Bogie Spare Parts">
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message / Details <span style="color: #E53E3E;">*</span></label>
+                <textarea id="message" name="message" class="form-textarea" required placeholder="Please outline part numbers, quantities, target delivery timelines, or technical specifications..."></textarea>
+                <div class="form-error-msg">Please provide details regarding your requirements.</div>
+              </div>
+
+              <div class="form-group">
+                <label for="referralSource" class="form-label">How did you hear about us?</label>
+                <select id="referralSource" name="referralSource" class="form-select">
+                  <option value="">Please select</option>
+                  <option value="Google Search">Google Search</option>
+                  <option value="LinkedIn">LinkedIn</option>
+                  <option value="Referral">Referral</option>
+                  <option value="Existing Client">Existing Client</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--lg" style="width: 100%; margin-top: 10px;">Send Enquiry</button>
+            </form>
+          </div>
+
+          <!-- Right: Contact Details (dark navy) -->
+          <div>
+            <div class="panel panel--navy panel--lime-top" style="padding: 40px 32px;">
+              <span class="eyebrow">Direct Contact Details</span>
+              <h3 style="color: var(--color-white); font-size: var(--text-2xl); margin-bottom: 24px;">Global Operating Desks</h3>
+
+              <div style="margin-bottom: 28px; line-height: 1.7; font-size: var(--text-base);">
+                <div style="margin-bottom: 12px;">
+                  <strong style="color: var(--color-white); display: block; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-lime);">Telephone</strong>
+                  <span style="font-family: var(--font-display); font-size: var(--text-2xl); color: var(--color-white); font-weight: 700;">+44 (0) 1234 440 530</span>
+                </div>
+                <div style="margin-bottom: 12px;">
+                  <strong style="color: var(--color-white); display: block; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-lime);">Email</strong>
+                  <a href="mailto:sales@pearlcon.com" style="color: var(--color-white); text-decoration: underline;">sales@pearlcon.com</a>
+                </div>
+                <div style="margin-bottom: 12px;">
+                  <strong style="color: var(--color-white); display: block; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-lime);">Website</strong>
+                  <span style="color: var(--color-text-light);">pearlconrail.co.uk</span>
+                </div>
+                <div style="margin-bottom: 12px;">
+                  <strong style="color: var(--color-white); display: block; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-lime);">Fax</strong>
+                  <span style="color: var(--color-text-light);">(123) 118 9999</span>
+                </div>
+              </div>
+
+              <div style="border-top: 1px solid var(--color-border-dark); padding-top: 24px; margin-bottom: 24px;">
+                <h4 style="color: var(--color-lime); font-size: var(--text-lg); margin-bottom: 6px;">UK Registered Office</h4>
+                <p style="color: var(--color-text-light); font-size: var(--text-sm); line-height: 1.6; margin: 0;">
+                  38F Chigwell Lane, Oakhill Industrial Estate<br>
+                  Loughton IG10 3NY, United Kingdom
+                </p>
+              </div>
+
+              <div style="border-top: 1px solid var(--color-border-dark); padding-top: 24px; margin-bottom: 24px;">
+                <h4 style="color: var(--color-lime); font-size: var(--text-lg); margin-bottom: 6px;">Kingdom of Saudi Arabia Office</h4>
+                <p style="color: var(--color-text-light); font-size: var(--text-sm); line-height: 1.6; margin: 0;">
+                  Pearlcon LLC<br>
+                  2996 Najd Street, Al Tubayshi<br>
+                  Dammam 32233, Saudi Arabia
+                </p>
+              </div>
+
+              <div style="background: rgba(13,31,60,0.6); border: 1px solid var(--color-border-dark); padding: 18px; font-size: var(--text-xs); color: var(--color-text-light); line-height: 1.7;">
+                <div><strong>Business Hours:</strong> Monday–Friday, 9:00 AM – 5:30 PM (GMT)</div>
+                <div><strong>Response Time:</strong> We aim to respond to all enquiries within 1 business day.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section with Accordion -->
+    <section class="section section--light" style="padding-top: 0;" aria-labelledby="faq-heading">
+      <div class="container">
+        <div style="max-width: 860px; margin: 0 auto;">
+          <span class="eyebrow" style="color: var(--color-navy); text-align: left;">Clear Answers</span>
+          <h2 id="faq-heading" style="color: var(--color-navy); margin-bottom: 32px;">Frequently Asked Questions</h2>
+
+          <div class="accordion" role="region" aria-label="FAQ Accordion">
+            <!-- Q1 -->
+            <div class="accordion__item">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-1">
+                <span>What types of railway products can Pearlcon Rail source?</span>
+                <span class="accordion__icon">+</span>
+              </button>
+              <div id="faq-1" class="accordion__content">
+                We source across all railway disciplines — from everyday consumables and MRO parts to complex capital equipment including rolling stock components, signalling systems, electrification equipment, track materials, and station infrastructure.
+              </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="accordion__item">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-2">
+                <span>Do you work with rail operators outside the UK?</span>
+                <span class="accordion__icon">+</span>
+              </button>
+              <div id="faq-2" class="accordion__content">
+                Yes. We serve clients across the UK, Europe, Middle East, and North Africa. Our buying offices in the UK, US, and China give us reach to source from global suppliers for any client, anywhere.
+              </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="accordion__item">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-3">
+                <span>How do I place an order or get a quote?</span>
+                <span class="accordion__icon">+</span>
+              </button>
+              <div id="faq-3" class="accordion__content">
+                Contact us via the form above or directly at sales@pearlcon.com. Our sourcing team will review your requirements and respond with a competitive quotation.
+              </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="accordion__item">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-4">
+                <span>Can Pearlcon Rail handle urgent or one-off sourcing needs?</span>
+                <span class="accordion__icon">+</span>
+              </button>
+              <div id="faq-4" class="accordion__content">
+                Yes — urgent and one-off sourcing is one of our specialisms. Our strategic sourcing team works to identify and procure even the most elusive items, often at short notice.
+              </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="accordion__item">
+              <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-5">
+                <span>Do you manage shipping and delivery as well?</span>
+                <span class="accordion__icon">+</span>
+              </button>
+              <div id="faq-5" class="accordion__content">
+                Yes. We provide an end-to-end logistics service including order tracking, shipping documentation, freight forwarding co-ordination, customs clearance, and delivery to your warehouse.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" aria-label="Pearlcon Rail Home">
+            <img src="assets/img/logo.svg" alt="Pearlcon Rail Services Ltd" class="footer__logo" width="200" height="40">
+          </a>
+          <p class="footer__tagline">Supporting Rail Companies Around the World</p>
+          <p class="footer__desc">
+            Specialist railway supply, sourcing, procurement, logistics, and consultancy company serving global rail operators across the UK, US, Europe, and Middle East.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="why-us.html">Why Us</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__heading">Contact & Offices</h3>
+          <div class="footer__contact-item">
+            <span>📍</span>
+            <span><strong>UK Office:</strong> 38F Chigwell Lane, Oakhill Industrial Estate, Loughton IG10 3NY, UK</span>
+          </div>
+          <div class="footer__contact-item">
+            <span>📍</span>
+            <span><strong>Saudi Arabia:</strong> Pearlcon LLC, 2996 Najd Street, Al Tubayshi, Dammam 32233, Saudi Arabia</span>
+          </div>
+          <div class="footer__contact-item">
+            <span>📞</span>
+            <span>+44 (0) 1234 440 530</span>
+          </div>
+          <div class="footer__contact-item">
+            <span>✉</span>
+            <span>sales@pearlcon.com</span>
+          </div>
+          <div class="footer__contact-item">
+            <span>🌐</span>
+            <span>pearlconrail.co.uk</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__bottom-inner">
+          <div>&copy; 2026 Pearlcon Rail Services Ltd. All rights reserved.</div>
+          <div>UK · US · Europe · Saudi Arabia</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
