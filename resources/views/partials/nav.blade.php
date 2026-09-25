@@ -1,7 +1,7 @@
 <header class="nav" role="banner">
   <div class="container nav__inner">
     <a href="{{ route('home') }}" class="nav__brand" aria-label="Pearlcon Rail Home">
-      <img src="{{ asset('assets/img/logo.svg') }}" alt="Pearlcon Rail Services Ltd" class="nav__logo-svg" width="220" height="44">
+      <img src="{{ asset('logo.svg') }}" alt="Pearlcon Rail Services Ltd" class="nav__logo-svg" width="260" height="52">
     </a>
 
     <nav role="navigation" aria-label="Primary Navigation">
@@ -17,13 +17,9 @@
     </nav>
 
     <div class="nav__actions">
-      <a href="{{ route('contact') }}" class="btn btn--primary">Get a Quote</a>
+      <a href="{{ route('contact') }}" class="btn btn--primary"><i class="fa-solid fa-paper-plane me-2"></i> Get a Quote</a>
       <button class="nav__mobile-toggle" aria-expanded="false" aria-label="Toggle navigation menu">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="6" x2="21" y2="6"/>
-          <line x1="3" y1="12" x2="21" y2="12"/>
-          <line x1="3" y1="18" x2="21" y2="18"/>
-        </svg>
+        <i class="fa-solid fa-bars text-xl"></i>
       </button>
     </div>
   </div>

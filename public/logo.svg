@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 68" width="340" height="68" fill="none">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="pGlow" x1="0" y1="0" x2="68" y2="68" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8DC63F" />
+      <stop offset="100%" stop-color="#0D1F3C" />
+    </linearGradient>
+    <linearGradient id="limeGrad" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9EE046" />
+      <stop offset="100%" stop-color="#72B026" />
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1F3C" />
+      <stop offset="100%" stop-color="#162A4A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem Icon: High-Speed Bullet Train + AI Neural Network Node (60x60) -->
+  <g transform="translate(4, 4)">
+    <!-- Shield / Outer Frame -->
+    <rect x="2" y="2" width="56" height="56" rx="14" fill="url(#navyGrad)" stroke="#8DC63F" stroke-width="2"/>
+    
+    <!-- AI Neural Grid Connections -->
+    <line x1="12" y1="18" x2="48" y2="18" stroke="rgba(141, 198, 63, 0.3)" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <line x1="10" y1="42" x2="50" y2="42" stroke="rgba(141, 198, 63, 0.3)" stroke-width="1.5" stroke-dasharray="2 2"/>
+    
+    <!-- High-Speed Train Front Contour / AI Speed Lines -->
+    <path d="M12 40 L24 16 C30 14, 42 14, 48 20 C52 24, 52 32, 48 40 L12 40 Z" fill="url(#limeGrad)"/>
+    <path d="M22 20 C28 17, 38 17, 44 22 L40 30 L22 30 Z" fill="#0D1F3C"/>
+    
+    <!-- Train Headlight / AI Node Core (Glowing Dot) -->
+    <circle cx="44" cy="34" r="3.5" fill="#FFFFFF"/>
+    <circle cx="44" cy="34" r="6" stroke="#9EE046" stroke-width="1.5" fill="none"/>
+
+    <!-- Dual Railway Tracks underneath with motion glow -->
+    <path d="M8 47 H52" stroke="#8DC63F" stroke-width="3" stroke-linecap="round"/>
+    <path d="M14 52 H46" stroke="#0D1F3C" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- AI Neural Nodes on Tracks -->
+    <circle cx="16" cy="47" r="2" fill="#FFFFFF"/>
+    <circle cx="44" cy="47" r="2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <!-- PEARLCON -->
+  <text x="76" y="38" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="26" fill="#0D1F3C" letter-spacing="-0.5">PEARLCON</text>
+  
+  <!-- RAIL -->
+  <text x="216" y="38" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="26" fill="#8DC63F" letter-spacing="-0.5">RAIL</text>
+
+  <!-- Subtitle Tagline -->
+  <text x="77" y="54" font-family="'Inter', sans-serif" font-weight="700" font-size="10.5" fill="#475569" letter-spacing="2.5">SERVICES LTD · AI PROCUREMENT</text>
+</svg>

@@ -4,38 +4,121 @@
 @section('meta_description', 'Pearlcon Rail Services is a UK-based specialist supplying, sourcing, and procurement company for the global railway sector. Serving Network Rail, HS2, London Underground, and Saudi Arabian Railway.')
 
 @section('content')
-<!-- Section 1: Hero -->
+<!-- Section 1: Hero with Left Text Content & Right AI Visualiser -->
 <section class="hero" aria-label="Hero Section">
   <div class="container">
-    <div class="hero__content">
-      <span class="eyebrow">Railway Supply & Procurement · United Kingdom</span>
-      <h1 class="hero__headline">
-        Global Rail Procurement.<br>
-        One Point of Contact.
-      </h1>
-      <p class="hero__sub">
-        Pearlcon Rail sources equipment, spare parts, and supply chain solutions for rail operators across the UK, US, and European markets — reliably, efficiently, on time.
-      </p>
-      <div class="btn-group">
-        <a href="{{ route('contact') }}" class="btn btn--primary btn--lg">Request a Quote</a>
-        <a href="{{ route('services') }}" class="btn btn--outline btn--lg">Our Services</a>
+    <div class="hero-grid-container">
+      
+      <!-- LEFT SIDE: Hero Text Content -->
+      <div class="hero__content">
+        <span class="eyebrow eyebrow--lime"><i class="fa-solid fa-microchip me-1 text-lime"></i> AI-POWERED RAIL PROCUREMENT</span>
+        <h1 class="hero__headline">
+          Global Rail Sourcing.<br>
+          <span class="text-lime">One AI Point of Contact.</span>
+        </h1>
+        <p class="hero__sub">
+          Pearlcon Rail combines advanced AI supply chain matching with 15+ years of railway engineering expertise to source equipment and spare parts across UK, US, Europe, and Middle East.
+        </p>
+        <div class="btn-group">
+          <a href="{{ route('contact') }}" class="btn btn--primary btn--lg"><i class="fa-solid fa-robot me-2"></i> Request Sourcing Quote</a>
+          <a href="{{ route('services') }}" class="btn btn--outline btn--lg"><i class="fa-solid fa-gears me-2"></i> Our Services</a>
+        </div>
+
+        <!-- Hero Stats -->
+        <div class="hero-stats">
+          <div class="hero-stat-item">
+            <div class="hero-stat-item__value">5,000+</div>
+            <div class="hero-stat-item__label">Global Supplier Network</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-item__value">4 Markets</div>
+            <div class="hero-stat-item__label">UK · US · EU · Saudi Arabia</div>
+          </div>
+          <div class="hero-stat-item">
+            <div class="hero-stat-item__value">100%</div>
+            <div class="hero-stat-item__label">KPI Delivery Reliability</div>
+          </div>
+        </div>
       </div>
 
-      <!-- Bottom of hero: 3 stat blocks separated by vertical lime lines -->
-      <div class="hero-stats">
-        <div class="hero-stat-item">
-          <div class="hero-stat-item__value">5,000+ Suppliers</div>
-          <div class="hero-stat-item__label">Established Worldwide Network</div>
-        </div>
-        <div class="hero-stat-item">
-          <div class="hero-stat-item__value">UK · US · Europe · Saudi Arabia</div>
-          <div class="hero-stat-item__label">Active Operating Presence</div>
-        </div>
-        <div class="hero-stat-item">
-          <div class="hero-stat-item__value">On Time In Full</div>
-          <div class="hero-stat-item__label">KPI-Monitored Delivery Reliability</div>
+      <!-- RIGHT SIDE: AI Visualiser & Interactive Supply Chain Card -->
+      <div class="hero-ai-wrapper reveal-on-scroll">
+        <div class="hero-ai-card">
+          <!-- Header of AI Card -->
+          <div class="hero-ai-card__top">
+            <span class="hero-ai-badge">
+              <span class="pulse-dot"></span> AI PROCUREMENT ENGINE v4.2
+            </span>
+            <span class="text-xs text-lime font-mono"><i class="fa-solid fa-signal me-1"></i> LIVE NETWORK</span>
+          </div>
+
+          <!-- Central AI Neural Network & Radar Graphic -->
+          <div class="hero-ai-graphic" style="position: relative; margin: 20px 0;">
+            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full">
+              <defs>
+                <radialGradient id="aiGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#8DC63F" stop-opacity="0.4" />
+                  <stop offset="100%" stop-color="#8DC63F" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+              
+              <!-- Orbital AI Radar Rings -->
+              <ellipse cx="200" cy="110" rx="170" ry="90" stroke="rgba(141, 198, 63, 0.25)" stroke-width="1.5" stroke-dasharray="4 4"/>
+              <ellipse cx="200" cy="110" rx="110" ry="55" stroke="rgba(141, 198, 63, 0.4)" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <ellipse cx="200" cy="110" rx="55" ry="30" stroke="#8DC63F" stroke-width="2"/>
+
+              <!-- Central Node -->
+              <circle cx="200" cy="110" r="28" fill="url(#aiGlow)"/>
+              <circle cx="200" cy="110" r="16" fill="#0D1F3C" stroke="#8DC63F" stroke-width="2.5"/>
+              <path d="M194 110 L206 110 M200 104 L200 116" stroke="#8DC63F" stroke-width="2"/>
+
+              <!-- Floating AI Regional Nodes -->
+              <g transform="translate(75, 55)">
+                <circle cx="0" cy="0" r="15" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
+                <text x="0" y="4" text-anchor="middle" fill="#9EE046" font-size="9" font-weight="800">UK</text>
+              </g>
+
+              <g transform="translate(325, 55)">
+                <circle cx="0" cy="0" r="15" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
+                <text x="0" y="4" text-anchor="middle" fill="#9EE046" font-size="9" font-weight="800">EU</text>
+              </g>
+
+              <g transform="translate(55, 160)">
+                <circle cx="0" cy="0" r="15" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
+                <text x="0" y="4" text-anchor="middle" fill="#9EE046" font-size="9" font-weight="800">US</text>
+              </g>
+
+              <g transform="translate(345, 160)">
+                <circle cx="0" cy="0" r="15" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
+                <text x="0" y="4" text-anchor="middle" fill="#9EE046" font-size="9" font-weight="800">KSA</text>
+              </g>
+
+              <!-- Connection Laser Lines -->
+              <line x1="75" y1="55" x2="200" y2="110" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <line x1="325" y1="55" x2="200" y2="110" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <line x1="55" y1="160" x2="200" y2="110" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <line x1="345" y1="160" x2="200" y2="110" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+          </div>
+
+          <!-- AI Metrics Strip inside card -->
+          <div class="grid-3 ai-metrics-grid" style="gap: 10px; background: rgba(8, 20, 39, 0.7); padding: 14px; border-radius: 12px; border: 1px solid rgba(141, 198, 63, 0.25);">
+            <div class="text-center">
+              <div class="text-xs text-light" style="font-size: 11px;">Match Accuracy</div>
+              <div class="text-lg font-extrabold text-lime">99.8%</div>
+            </div>
+            <div class="text-center">
+              <div class="text-xs text-light" style="font-size: 11px;">Supplier Nodes</div>
+              <div class="text-lg font-extrabold text-white">5,000+</div>
+            </div>
+            <div class="text-center">
+              <div class="text-xs text-light" style="font-size: 11px;">Quote Turnaround</div>
+              <div class="text-lg font-extrabold text-amber">&lt; 24 Hrs</div>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>

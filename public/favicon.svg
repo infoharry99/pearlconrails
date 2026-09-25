@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="favLime" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9EE046" />
+      <stop offset="100%" stop-color="#72B026" />
+    </linearGradient>
+    <linearGradient id="favNavy" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1F3C" />
+      <stop offset="100%" stop-color="#162A4A" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="16" fill="url(#favNavy)"/>
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="#8DC63F" stroke-width="2" fill="none"/>
+
+  <path d="M12 40 L24 16 C30 14, 42 14, 48 20 C52 24, 52 32, 48 40 L12 40 Z" fill="url(#favLime)"/>
+  <path d="M22 20 C28 17, 38 17, 44 22 L40 30 L22 30 Z" fill="#0D1F3C"/>
+
+  <circle cx="44" cy="34" r="3.5" fill="#FFFFFF"/>
+  <circle cx="44" cy="34" r="6" stroke="#9EE046" stroke-width="1.5" fill="none"/>
+
+  <path d="M8 48 H52" stroke="#8DC63F" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M14 54 H46" stroke="#0D1F3C" stroke-width="2" stroke-linecap="round"/>
+</svg>
