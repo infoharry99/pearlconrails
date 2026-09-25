@@ -1512,30 +1512,49 @@ p:last-child {
   .at-a-glance__item {
     border-right: none;
   }
-/* 19. AI Hero Section Styles */
+/* 19. AI Hero Section Styles — Side-by-Side Flex Layout */
 .hero-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1.05fr;
-  gap: 48px;
-  align-items: center;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 40px !important;
+  width: 100% !important;
 }
+
+.hero__content {
+  flex: 1 1 54% !important;
+  max-width: 54% !important;
+}
+
+.hero-ai-wrapper {
+  flex: 1 1 43% !important;
+  max-width: 43% !important;
+}
+
 @media (max-width: 992px) {
   .hero-grid-container {
-    grid-template-columns: 1fr !important;
-    gap: 36px;
+    flex-direction: column !important;
+    gap: 36px !important;
+  }
+  .hero__content, .hero-ai-wrapper {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
   }
 }
 
 .hero-ai-card {
-  background: rgba(13, 31, 60, 0.88);
+  background: rgba(13, 31, 60, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1.5px solid rgba(141, 198, 63, 0.45);
   border-radius: var(--radius-lg);
-  padding: 24px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   position: relative;
   overflow: hidden;
+  max-width: 460px;
+  margin-left: auto;
 }
 
 .hero-ai-card::before {
