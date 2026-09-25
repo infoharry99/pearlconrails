@@ -77,7 +77,7 @@
     <div style="background: var(--color-white); border: 1px solid var(--color-border); padding: 40px;">
       <span class="eyebrow" style="color: var(--color-navy);">Component Portfolio</span>
       <h2 id="key-products-heading" style="color: var(--color-navy); margin-bottom: 24px;">Key Products & Sub-Assemblies</h2>
-      
+
       <div class="grid-2" style="gap: 20px;">
         <ul class="feature-list" style="color: var(--color-text-mid);">
           <li>Switchgear modules</li>

@@ -8,14 +8,14 @@
 <section class="hero" aria-label="Hero Section" style="padding: 64px 0; background-color: #0D1F3C;">
   <div class="container">
     <div class="hero-flex-wrapper" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 48px; width: 100%;">
-      
+
       <!-- LEFT SIDE: Hero Content (Text, Green Checkmark Features & Action Buttons) -->
       <div class="hero-text-col" style="flex: 1 1 52%; max-width: 52%;">
         <span class="eyebrow eyebrow--lime" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: #8DC63F; margin-bottom: 16px; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase;">
-          <i class="fa-solid fa-microchip me-1"></i> AI-POWERED RAIL PROCUREMENT
+          <i class="fa-solid fa-microchip me-1"></i>  RAIL PROCUREMENT
         </span>
 
-        <h1 class="hero__headline" style="font-size: clamp(2.5rem, 4.5vw, 3.75rem); line-height: 1.1; margin-bottom: 20px; font-weight: 800; color: #FFFFFF;">
+        <h1 class="hero__headline" style="font-size: clamp(2.5rem, 4.5vw, 3.75rem); line-height: 1.1; margin-bottom: 20px; font-weight: 700; color: #FFFFFF;">
           Global Rail Sourcing.<br>
           <span class="text-lime" style="color: #8DC63F;">One AI Point of Contact.</span>
         </h1>
@@ -23,8 +23,6 @@
         <p class="hero__sub" style="font-size: 1.1rem; color: #CBD5E1; line-height: 1.65; margin-bottom: 24px;">
           Pearlcon Rail combines advanced AI supply chain matching with 15+ years of railway engineering expertise to source equipment and spare parts across UK, US, Europe, and Middle East.
         </p>
-
-        
 
         <!-- Action Buttons -->
         <div class="btn-group" style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
@@ -40,7 +38,7 @@
       <!-- RIGHT SIDE: AI Visual Card matching exact reference image -->
       <div class="hero-ai-col reveal-on-scroll" style="flex: 1 1 44%; max-width: 44%;">
         <div class="who-we-are-card" style="background-color: #081427; border: 1.5px solid #1E3A5F; border-radius: 18px; padding: 24px; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); position: relative; max-width: 480px; margin-left: auto;">
-          
+
           <!-- Card Header (Est. 2009 & Global Procurement Active) -->
           <div class="who-we-are-card__header" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
             <span class="badge-est" style="background: rgba(141, 198, 63, 0.15); border: 1px solid rgba(141, 198, 63, 0.4); color: #8DC63F; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; letter-spacing: 0.05em;">• Est. 2009</span>
@@ -75,31 +73,31 @@
 
               <circle cx="220" cy="130" r="36" fill="url(#hubGlow)" />
               <circle cx="220" cy="130" r="20" fill="#0D1F3C" stroke="#8DC63F" stroke-width="2.5" />
-              <text x="220" y="134" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="10" fill="#8DC63F" letter-spacing="1">HUB</text>
+              <text x="220" y="134" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="10" fill="#8DC63F" letter-spacing="1">HUB</text>
 
               <g transform="translate(120, 70)">
                 <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">UK</text>
+                <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">UK</text>
               </g>
 
               <g transform="translate(75, 165)">
                 <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">US</text>
+                <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">US</text>
               </g>
 
               <g transform="translate(330, 75)">
                 <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">EU</text>
+                <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">EU</text>
               </g>
 
               <g transform="translate(370, 165)">
                 <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">SA</text>
+                <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">SA</text>
               </g>
 
               <g transform="translate(220, 225)">
                 <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">CN</text>
+                <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">CN</text>
               </g>
             </svg>
           </div>
@@ -107,15 +105,15 @@
           <!-- Bottom 3 Metric Boxes (matching reference image) -->
           <div class="who-we-are-card__footer" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 14px; margin-top: 10px;">
             <div class="metric-pill" style="border: 1px solid rgba(141, 198, 63, 0.3); background: rgba(13, 31, 60, 0.6); border-radius: 8px; padding: 10px 6px; text-align: center;">
-              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 800; color: #8DC63F;">5,000+</span>
+              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 700; color: #8DC63F;">5,000+</span>
               <span class="metric-pill__lbl" style="display: block; font-size: 10px; color: #CBD5E1; text-transform: uppercase; font-weight: 700; margin-top: 2px;">SUPPLIERS</span>
             </div>
             <div class="metric-pill" style="border: 1px solid rgba(141, 198, 63, 0.3); background: rgba(13, 31, 60, 0.6); border-radius: 8px; padding: 10px 6px; text-align: center;">
-              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 800; color: #8DC63F;">99.8%</span>
+              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 700; color: #8DC63F;">99.8%</span>
               <span class="metric-pill__lbl" style="display: block; font-size: 10px; color: #CBD5E1; text-transform: uppercase; font-weight: 700; margin-top: 2px;">OTIF RATE</span>
             </div>
             <div class="metric-pill" style="border: 1px solid rgba(141, 198, 63, 0.3); background: rgba(13, 31, 60, 0.6); border-radius: 8px; padding: 10px 6px; text-align: center;">
-              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 800; color: #8DC63F;">100%</span>
+              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 700; color: #8DC63F;">100%</span>
               <span class="metric-pill__lbl" style="display: block; font-size: 10px; color: #CBD5E1; text-transform: uppercase; font-weight: 700; margin-top: 2px;">TRACEABLE</span>
             </div>
           </div>
@@ -175,19 +173,19 @@
         <div class="who-we-are-card__visual">
           <svg class="orbital-graphic" viewBox="0 0 440 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pearlcon global procurement orbital sourcing network">
             <defs>
-              <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+              <radialGradient id="hubGlow2" cx="50%" cy="50%" r="50%">
                 <stop offset="0%" stop-color="#8DC63F" stop-opacity="0.45" />
                 <stop offset="100%" stop-color="#8DC63F" stop-opacity="0" />
               </radialGradient>
-              <linearGradient id="orbitStroke" x1="0" y1="0" x2="440" y2="280" gradientUnits="userSpaceOnUse">
+              <linearGradient id="orbitStroke2" x1="0" y1="0" x2="440" y2="280" gradientUnits="userSpaceOnUse">
                 <stop offset="0%" stop-color="#8DC63F" stop-opacity="0.4" />
                 <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0.2" />
               </linearGradient>
             </defs>
 
             <!-- Concentric Orbital Grid Rings -->
-            <ellipse cx="220" cy="140" rx="200" ry="115" stroke="url(#orbitStroke)" stroke-width="1.2" stroke-dasharray="4 6" class="orbital-ring" style="animation-duration: 60s;" />
-            <ellipse cx="220" cy="140" rx="145" ry="80" stroke="url(#orbitStroke)" stroke-width="1.5" stroke-dasharray="3 5" class="orbital-ring" style="animation-direction: reverse; animation-duration: 45s;" />
+            <ellipse cx="220" cy="140" rx="200" ry="115" stroke="url(#orbitStroke2)" stroke-width="1.2" stroke-dasharray="4 6" class="orbital-ring" style="animation-duration: 60s;" />
+            <ellipse cx="220" cy="140" rx="145" ry="80" stroke="url(#orbitStroke2)" stroke-width="1.5" stroke-dasharray="3 5" class="orbital-ring" style="animation-direction: reverse; animation-duration: 45s;" />
             <ellipse cx="220" cy="140" rx="85" ry="46" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="2 4" class="orbital-ring" style="animation-duration: 30s;" />
 
             <!-- Connecting Laser Rays to Central Hub -->
@@ -198,43 +196,43 @@
             <line x1="220" y1="240" x2="220" y2="140" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
 
             <!-- Central Pearlcon Core Hub -->
-            <circle cx="220" cy="140" r="38" fill="url(#hubGlow)" />
+            <circle cx="220" cy="140" r="38" fill="url(#hubGlow2)" />
             <circle cx="220" cy="140" r="22" fill="#0D1F3C" stroke="#8DC63F" stroke-width="2.5" />
-            <text x="220" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#8DC63F" letter-spacing="1">HUB</text>
+            <text x="220" y="145" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="11" fill="#8DC63F" letter-spacing="1">HUB</text>
 
             <!-- Node 1: UK -->
             <g class="orbital-node" transform="translate(120, 75)">
               <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" />
               <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">UK</text>
+              <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">UK</text>
             </g>
 
             <!-- Node 2: US -->
             <g class="orbital-node" transform="translate(75, 175)">
               <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" style="animation-delay: 0.7s;" />
               <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">US</text>
+              <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">US</text>
             </g>
 
             <!-- Node 3: EU -->
             <g class="orbital-node" transform="translate(330, 80)">
               <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" style="animation-delay: 1.4s;" />
               <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">EU</text>
+              <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">EU</text>
             </g>
 
             <!-- Node 4: SA (Saudi Arabia) -->
             <g class="orbital-node" transform="translate(370, 175)">
               <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" style="animation-delay: 2.1s;" />
               <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">SA</text>
+              <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">SA</text>
             </g>
 
             <!-- Node 5: CN / Global -->
             <g class="orbital-node" transform="translate(220, 240)">
               <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" style="animation-delay: 1s;" />
               <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
-              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">CN</text>
+              <text x="0" y="4" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">CN</text>
             </g>
           </svg>
         </div>

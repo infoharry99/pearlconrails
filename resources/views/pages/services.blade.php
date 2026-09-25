@@ -158,20 +158,20 @@
           <svg viewBox="0 0 460 220" width="100%" height="auto" style="overflow: visible;">
             <!-- Customer Node -->
             <rect x="20" y="80" width="100" height="50" fill="#162A4A" stroke="#4A5568" stroke-width="2"/>
-            <text x="70" y="110" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Customer</text>
+            <text x="70" y="110" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Customer</text>
 
             <!-- 4 Manufacturers Nodes -->
             <rect x="320" y="20" width="120" height="34" fill="#162A4A" stroke="#4A5568" stroke-width="1.5"/>
-            <text x="380" y="42" font-family="'Inter', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer A</text>
+            <text x="380" y="42" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer A</text>
 
             <rect x="320" y="70" width="120" height="34" fill="#162A4A" stroke="#4A5568" stroke-width="1.5"/>
-            <text x="380" y="92" font-family="'Inter', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer B</text>
+            <text x="380" y="92" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer B</text>
 
             <rect x="320" y="120" width="120" height="34" fill="#162A4A" stroke="#4A5568" stroke-width="1.5"/>
-            <text x="380" y="142" font-family="'Inter', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer C</text>
+            <text x="380" y="142" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer C</text>
 
             <rect x="320" y="170" width="120" height="34" fill="#162A4A" stroke="#4A5568" stroke-width="1.5"/>
-            <text x="380" y="192" font-family="'Inter', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer D</text>
+            <text x="380" y="192" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer D</text>
 
             <!-- Connecting lines -->
             <line x1="120" y1="95" x2="310" y2="37" stroke="#718096" stroke-width="1.5" stroke-dasharray="4"/>
@@ -197,7 +197,7 @@
           <svg viewBox="0 0 460 220" width="100%" height="auto" style="overflow: visible;">
             <!-- Customer Node -->
             <rect x="15" y="80" width="95" height="50" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
-            <text x="62" y="110" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Customer</text>
+            <text x="62" y="110" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Customer</text>
 
             <!-- Arrow Customer -> Pearlcon -->
             <line x1="110" y1="105" x2="165" y2="105" stroke="#8DC63F" stroke-width="2.5"/>
@@ -205,21 +205,21 @@
 
             <!-- Pearlcon Central Node -->
             <rect x="175" y="65" width="125" height="80" fill="#0D1F3C" stroke="#8DC63F" stroke-width="2.5"/>
-            <text x="237" y="100" font-family="'Barlow Condensed', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">PEARLCON</text>
-            <text x="237" y="120" font-family="'Barlow Condensed', sans-serif" font-size="16" font-weight="700" fill="#8DC63F" text-anchor="middle">RAIL</text>
+            <text x="237" y="100" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">PEARLCON</text>
+            <text x="237" y="120" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#8DC63F" text-anchor="middle">RAIL</text>
 
             <!-- 4 Manufacturers Nodes -->
             <rect x="340" y="20" width="110" height="34" fill="#162A4A" stroke="#2A4A6B" stroke-width="1.5"/>
-            <text x="395" y="42" font-family="'Inter', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer A</text>
+            <text x="395" y="42" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer A</text>
 
             <rect x="340" y="70" width="110" height="34" fill="#162A4A" stroke="#2A4A6B" stroke-width="1.5"/>
-            <text x="395" y="92" font-family="'Inter', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer B</text>
+            <text x="395" y="92" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer B</text>
 
             <rect x="340" y="120" width="110" height="34" fill="#162A4A" stroke="#2A4A6B" stroke-width="1.5"/>
-            <text x="395" y="142" font-family="'Inter', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer C</text>
+            <text x="395" y="142" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer C</text>
 
             <rect x="340" y="170" width="110" height="34" fill="#162A4A" stroke="#2A4A6B" stroke-width="1.5"/>
-            <text x="395" y="192" font-family="'Inter', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer D</text>
+            <text x="395" y="192" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer D</text>
 
             <!-- Connections -->
             <line x1="300" y1="85" x2="335" y2="37" stroke="#8DC63F" stroke-width="1.5"/>
@@ -256,4 +256,4 @@
     </div>
   </div>
 </section>
-@endsection
+@endsection 
