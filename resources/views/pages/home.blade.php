@@ -64,39 +64,159 @@
   </div>
 </section>
 
-<!-- Section 3: About Overview -->
-<section class="section section--light" aria-labelledby="about-overview-heading">
+<!-- Section 3: Who We Are & Global Sourcing Network (Reference Design) -->
+<section class="section section--light" aria-labelledby="who-we-are-heading">
   <div class="container">
-    <div class="grid-2" style="grid-template-columns: 1.4fr 1fr; align-items: center;">
-      <div>
-        <span class="eyebrow" style="color: var(--color-navy);">About the Company</span>
-        <h2 id="about-overview-heading" style="color: var(--color-navy); margin-bottom: 20px;">Your Global Sourcing Partner</h2>
-        <p style="color: var(--color-text-mid); font-size: var(--text-lg); line-height: 1.6;">
-          Pearlcon Rail Services is a specialist supplying, sourcing, and service company dedicated to the global railway and transport sector, acting as a single point of contact for equipment, spare parts, procurement logistics, and supply chain consultancy — sourcing from trusted UK, US, and European supply networks.
-        </p>
-        <p style="color: var(--color-text-mid); line-height: 1.6;">
-          With a comprehensive and outcome-oriented approach, Pearlcon combines deep industry expertise with an international supplier network to help clients deliver their tactical and operational objectives efficiently and reliably.
-        </p>
-        <div style="margin-top: 24px;">
-          <a href="{{ route('about') }}" style="color: var(--color-lime-dark); font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
-            Read More About Us
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
+    <div style="margin-bottom: 40px;" class="reveal-on-scroll">
+      <span class="eyebrow eyebrow--amber">Who We Are</span>
+      <h2 id="who-we-are-heading" style="max-width: 900px; margin-top: 10px; line-height: 1.25;">
+        A UK supply and sourcing partner built for industrial complexity &mdash; <span class="text-highlight">one accountable team</span>, from enquiry to delivery.
+      </h2>
+    </div>
+
+    <div class="grid-2" style="grid-template-columns: 1fr 1.15fr; align-items: center; gap: 48px;">
+      <!-- Visual Card: Global Orbital Procurement Grid -->
+      <div class="who-we-are-card reveal-on-scroll stagger-1">
+        <div class="who-we-are-card__header">
+          <span class="badge-est">Est. 2009</span>
+          <div class="who-we-are-card__status">
+            <span class="status-indicator"></span> Global Procurement Active
+          </div>
+        </div>
+
+        <!-- High-Tech Concentric Radar / Orbital SVG Visualization -->
+        <div class="who-we-are-card__visual">
+          <svg class="orbital-graphic" viewBox="0 0 440 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pearlcon global procurement orbital sourcing network">
+            <defs>
+              <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#8DC63F" stop-opacity="0.45" />
+                <stop offset="100%" stop-color="#8DC63F" stop-opacity="0" />
+              </radialGradient>
+              <linearGradient id="orbitStroke" x1="0" y1="0" x2="440" y2="280" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#8DC63F" stop-opacity="0.4" />
+                <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0.2" />
+              </linearGradient>
+            </defs>
+
+            <!-- Concentric Orbital Grid Rings -->
+            <ellipse cx="220" cy="140" rx="200" ry="115" stroke="url(#orbitStroke)" stroke-width="1.2" stroke-dasharray="4 6" class="orbital-ring" style="animation-duration: 60s;" />
+            <ellipse cx="220" cy="140" rx="145" ry="80" stroke="url(#orbitStroke)" stroke-width="1.5" stroke-dasharray="3 5" class="orbital-ring" style="animation-direction: reverse; animation-duration: 45s;" />
+            <ellipse cx="220" cy="140" rx="85" ry="46" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="2 4" class="orbital-ring" style="animation-duration: 30s;" />
+
+            <!-- Connecting Laser Rays to Central Hub -->
+            <line x1="120" y1="75" x2="220" y2="140" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+            <line x1="75" y1="175" x2="220" y2="140" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+            <line x1="330" y1="80" x2="220" y2="140" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+            <line x1="370" y1="175" x2="220" y2="140" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+            <line x1="220" y1="240" x2="220" y2="140" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+
+            <!-- Central Pearlcon Core Hub -->
+            <circle cx="220" cy="140" r="38" fill="url(#hubGlow)" />
+            <circle cx="220" cy="140" r="22" fill="#0D1F3C" stroke="#8DC63F" stroke-width="2.5" />
+            <text x="220" y="145" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" fill="#8DC63F" letter-spacing="1">HUB</text>
+
+            <!-- Node 1: UK -->
+            <g class="orbital-node" transform="translate(120, 75)">
+              <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" />
+              <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">UK</text>
+            </g>
+
+            <!-- Node 2: US -->
+            <g class="orbital-node" transform="translate(75, 175)">
+              <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" style="animation-delay: 0.7s;" />
+              <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">US</text>
+            </g>
+
+            <!-- Node 3: EU -->
+            <g class="orbital-node" transform="translate(330, 80)">
+              <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" style="animation-delay: 1.4s;" />
+              <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="10" fill="#FFFFFF">EU</text>
+            </g>
+
+            <!-- Node 4: SA (Saudi Arabia) -->
+            <g class="orbital-node" transform="translate(370, 175)">
+              <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" style="animation-delay: 2.1s;" />
+              <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">SA</text>
+            </g>
+
+            <!-- Node 5: CN / Global -->
+            <g class="orbital-node" transform="translate(220, 240)">
+              <circle cx="0" cy="0" r="16" class="orbital-node-pulse" fill="none" stroke="#8DC63F" stroke-width="1.5" style="animation-delay: 1s;" />
+              <circle cx="0" cy="0" r="12" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+              <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">CN</text>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Bottom Metric Badges inside Card -->
+        <div class="who-we-are-card__footer">
+          <div class="metric-pill">
+            <span class="metric-pill__val">5,000+</span>
+            <span class="metric-pill__lbl">Suppliers</span>
+          </div>
+          <div class="metric-pill">
+            <span class="metric-pill__val">99.4%</span>
+            <span class="metric-pill__lbl">OTIF Rate</span>
+          </div>
+          <div class="metric-pill">
+            <span class="metric-pill__val">100%</span>
+            <span class="metric-pill__lbl">Traceable</span>
+          </div>
         </div>
       </div>
-      <div>
-        <div class="panel panel--navy panel--lime-top">
-          <h3 style="color: var(--color-white); margin-bottom: 20px; font-size: var(--text-2xl);">Procurement Simplified</h3>
-          <ul class="feature-list" style="color: var(--color-text-light);">
-            <li>Single Purchase Order</li>
-            <li>Single Point of Contact</li>
-            <li>On Time In Full Delivery</li>
-            <li>Global Supplier Network of 5,000+</li>
-          </ul>
-          <div style="margin-top: 28px; padding-top: 20px; border-top: 1px solid var(--color-border-dark);">
-            <span style="font-size: var(--text-xs); color: var(--color-text-light); display: block; margin-bottom: 8px;">Direct Rail Sourcing Desk</span>
-            <span style="font-family: var(--font-display); font-size: var(--text-xl); color: var(--color-lime); font-weight: 700;">+44 (0) 1234 440 530</span>
+
+      <!-- Right Column: Descriptive Content & Value Points -->
+      <div class="reveal-on-scroll stagger-2">
+        <p class="lead-text">
+          Headquartered in Essex, United Kingdom, Pearlcon Rail Services Ltd delivers complete rail procurement, specialised component sourcing, and supply-chain logistics for demanding transit authorities, passenger operators, and freight rail networks worldwide.
+        </p>
+        <p class="body-text">
+          We eliminate the friction between engineering requisitions and international manufacturing hubs. Rather than managing dozens of disconnected vendors, our clients leverage one dedicated procurement desk that oversees quality inspection, customs compliance, and direct site delivery.
+        </p>
+
+        <!-- Key Value Points -->
+        <div class="value-feature-list">
+          <div class="value-feature-item">
+            <div class="value-feature-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <strong>Single Purchase Order &amp; Unified Invoicing</strong>
+              <p>Eliminate cross-border administrative overhead with one accountable UK contractor.</p>
+            </div>
           </div>
+          <div class="value-feature-item">
+            <div class="value-feature-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <strong>Dual Operations: UK HQ &amp; Saudi Hub</strong>
+              <p>Local responsiveness across the UK/EU combined with on-the-ground support for Middle East rail corridors.</p>
+            </div>
+          </div>
+          <div class="value-feature-item">
+            <div class="value-feature-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <strong>Full Railway Compliance &amp; Material Traceability</strong>
+              <p>Full EN 10204 3.1/3.2 certification, TSI alignment, and Network Rail standard adherence.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-group" style="margin-top: 32px;">
+          <a href="{{ route('about') }}" class="btn btn--primary">
+            Discover Our Sourcing Model
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-left: 6px;"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="{{ route('contact') }}" class="btn btn--outline" style="border-color: var(--color-navy); color: var(--color-navy);">
+            Speak to an Account Executive
+          </a>
         </div>
       </div>
     </div>

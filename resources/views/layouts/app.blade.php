@@ -7,10 +7,10 @@
   <meta name="description" content="@yield('meta_description', 'Pearlcon Rail Services is a UK-based specialist supplying, sourcing, and procurement company for the global railway sector. Serving Network Rail, HS2, London Underground, and Saudi Arabian Railway.')">
   <link rel="canonical" href="@yield('canonical', url()->current())">
 
-  <!-- Google Fonts: Inter & Barlow Condensed -->
+  <!-- Google Fonts: Plus Jakarta Sans, Inter & Barlow Condensed -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/svg+xml" href="{{ asset('assets/img/favicon.svg') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">

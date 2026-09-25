@@ -1,7 +1,7 @@
 /**
  * PEARLCON RAIL SERVICES LTD — Core JavaScript
  * Domain: pearlconrail.co.uk
- * Performance: Vanilla JS, zero dependencies, accessible
+ * Performance: Vanilla JS, zero dependencies, accessible, 60fps micro-interactions
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -11,7 +11,77 @@ document.addEventListener('DOMContentLoaded', () => {
     heroReveal.classList.add('hero__content-reveal');
   }
 
-  // 2. Mobile Navigation Toggle
+  // 2. Dynamic Sticky Navbar on Scroll
+  const navHeader = document.querySelector('.nav');
+  if (navHeader) {
+    const handleScroll = () => {
+      if (window.scrollY > 24) {
+        navHeader.classList.add('is-scrolled');
+      } else {
+        navHeader.classList.remove('is-scrolled');
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll(); // run once on init
+  }
+
+  // 3. Scroll-Triggered Reveal Animations (IntersectionObserver)
+  const revealElements = document.querySelectorAll('.reveal-on-scroll');
+  if ('IntersectionObserver' in window && revealElements.length > 0) {
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      root: null,
+      threshold: 0.12,
+      rootMargin: '0px 0px -40px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+  } else {
+    // Fallback: reveal immediately if IntersectionObserver is unsupported
+    revealElements.forEach(el => el.classList.add('is-revealed'));
+  }
+
+  // 4. Interactive 3D Glow on Who-We-Are Card
+  const orbitalCard = document.querySelector('.who-we-are-card');
+  if (orbitalCard) {
+    orbitalCard.addEventListener('mousemove', (e) => {
+      const rect = orbitalCard.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      orbitalCard.style.background = `radial-gradient(circle at ${x}% ${y}%, #1a345d 0%, #0D1F3C 75%)`;
+    });
+
+    orbitalCard.addEventListener('mouseleave', () => {
+      orbitalCard.style.background = 'radial-gradient(circle at 50% 30%, #152A4A 0%, #0D1F3C 100%)';
+    });
+  }
+
+  // 5. Interactive Orbital Nodes (Click / Hover corridor highlight)
+  const orbitalNodes = document.querySelectorAll('.orbital-node');
+  orbitalNodes.forEach(node => {
+    node.style.cursor = 'pointer';
+    node.addEventListener('mouseenter', () => {
+      const circle = node.querySelector('circle:nth-child(2)');
+      if (circle) circle.setAttribute('fill', '#8DC63F');
+      const text = node.querySelector('text');
+      if (text) text.setAttribute('fill', '#0D1F3C');
+    });
+
+    node.addEventListener('mouseleave', () => {
+      const circle = node.querySelector('circle:nth-child(2)');
+      if (circle) circle.setAttribute('fill', '#162A4A');
+      const text = node.querySelector('text');
+      if (text) text.setAttribute('fill', '#FFFFFF');
+    });
+  });
+
+  // 6. Mobile Navigation Toggle
   const mobileToggle = document.querySelector('.nav__mobile-toggle');
   const navLinks = document.querySelector('.nav__links');
 
@@ -42,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 3. Active Nav Link Detection (fallback if not set by Blade)
+  // 7. Active Nav Link Detection (fallback if not set by Blade)
   const currentPath = window.location.pathname;
   const pageName = currentPath.split('/').pop() || 'index.html';
   const navItems = document.querySelectorAll('.nav__link');
@@ -57,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 4. Accessible Accordion (FAQ on Contact page)
+  // 8. Accessible Accordion (FAQ on Contact page)
   const accordionTriggers = document.querySelectorAll('.accordion__trigger');
 
   accordionTriggers.forEach(trigger => {
@@ -86,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 5. Contact Form Validation & Submission
+  // 9. Contact Form Validation & Submission
   const contactForm = document.getElementById('enquiryForm');
   const formAlert = document.getElementById('formSuccessAlert');
 
