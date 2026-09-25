@@ -13,6 +13,11 @@
         <li><a href="{{ route('why-us') }}" class="nav__link {{ request()->routeIs('why-us') ? 'is-active' : '' }}">Why Us</a></li>
         <li><a href="{{ route('clients') }}" class="nav__link {{ request()->routeIs('clients') ? 'is-active' : '' }}">Clients</a></li>
         <li><a href="{{ route('contact') }}" class="nav__link {{ request()->routeIs('contact') ? 'is-active' : '' }}">Contact</a></li>
+        <li class="nav__mobile-cta">
+          <a href="{{ route('contact') }}" class="btn btn--primary" style="width: 100%; margin-top: 8px;">
+            <i class="fa-solid fa-paper-plane me-2"></i> Get a Quote
+          </a>
+        </li>
       </ul>
     </nav>
 

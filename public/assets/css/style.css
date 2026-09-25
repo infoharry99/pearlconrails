@@ -370,6 +370,10 @@ p:last-child {
   gap: 16px;
 }
 
+.nav__mobile-cta {
+  display: none;
+}
+
 .nav__mobile-toggle {
   display: none;
   background: #F8FAFC;
@@ -1488,10 +1492,14 @@ p:last-child {
     border-bottom: 1px solid rgba(13, 31, 60, 0.2);
   }
   .grid-4 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
   }
   .grid-3 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
   }
   .service-strip {
     grid-template-columns: 1fr;
@@ -1507,6 +1515,17 @@ p:last-child {
   .cta-banner__inner {
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
+  }
+  .diagram-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .panel[style*="sticky"] {
+    position: static !important;
+  }
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .hero-grid-container {
     flex-direction: column !important;
@@ -1527,11 +1546,20 @@ p:last-child {
 
 @media (max-width: 768px) {
   :root {
-    --text-hero: 3rem;
+    --text-hero: 2.5rem;
   }
   .section {
-    padding: 64px 0;
+    padding: 56px 0;
   }
+  .section--sm {
+    padding: 40px 0;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* ---- Mobile Nav Dropdown: dark navy panel, so all text/icons must be light ---- */
   .nav__links {
     display: none;
     position: absolute;
@@ -1540,12 +1568,43 @@ p:last-child {
     right: 0;
     background-color: var(--color-navy);
     flex-direction: column;
+    align-items: flex-start;
     padding: 24px;
-    gap: 18px;
+    gap: 6px;
     border-bottom: 1px solid var(--color-lime);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.35);
+    max-height: calc(100vh - var(--header-height));
+    overflow-y: auto;
   }
   .nav__links.is-open {
     display: flex;
+  }
+  .nav__links .nav__link {
+    color: var(--color-white) !important;
+    width: 100%;
+    padding: 14px 4px;
+    font-size: var(--text-base);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .nav__links .nav__link:last-child {
+    border-bottom: none;
+  }
+  .nav__mobile-cta {
+    display: block;
+    width: 100%;
+    border-bottom: none !important;
+    padding-top: 10px;
+  }
+  .nav__links .nav__link:hover,
+  .nav__links .nav__link:focus-visible {
+    color: var(--color-lime) !important;
+  }
+  .nav__links .nav__link.is-active {
+    color: var(--color-lime) !important;
+    font-weight: 700;
+  }
+  .nav__links .nav__link::after {
+    display: none;
   }
   .nav__actions .btn {
     display: none;
@@ -1553,11 +1612,18 @@ p:last-child {
   .nav__mobile-toggle {
     display: block;
   }
-  .grid-2 {
-    grid-template-columns: 1fr;
+  .nav__mobile-toggle i {
+    color: #0F172A;
   }
+
+  /* ---- Force single-column stacking on mobile, even where inline styles set
+     explicit grid-template-columns (e.g. style="grid-template-columns: 1.6fr 1fr")
+     which would otherwise beat the class-based rule below. ---- */
+  .grid-2,
+  .grid-3,
   .grid-4 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
   }
   .service-strip__bullets {
     grid-template-columns: 1fr;
@@ -1567,6 +1633,103 @@ p:last-child {
   }
   .at-a-glance__item {
     border-right: none;
+  }
+
+  /* ---- Hero ---- */
+  .hero {
+    padding: 40px 0 32px 0;
+    min-height: auto;
+  }
+  .hero-flex-wrapper {
+    flex-direction: column !important;
+    gap: 28px !important;
+  }
+  .hero-text-col,
+  .hero-ai-col {
+    max-width: 100% !important;
+    flex: 1 1 100% !important;
+  }
+  .hero-ai-card,
+  .who-we-are-card {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .hero__sub {
+    font-size: var(--text-base);
+  }
+  .btn-group {
+    width: 100%;
+  }
+  .btn-group .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* ---- Inner page hero ---- */
+  .hero--inner {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  /* ---- Service strips ---- */
+  .service-strip__header,
+  .service-strip__body {
+    padding: 24px 20px;
+  }
+
+  /* ---- CTA banner ---- */
+  .cta-banner__inner {
+    text-align: left;
+  }
+  .cta-banner__inner .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .cta-banner__title {
+    font-size: var(--text-2xl);
+  }
+
+  /* ---- Footer ---- */
+  .footer__bottom-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  /* ---- Tables scroll horizontally instead of squeezing text ---- */
+  .data-table th,
+  .data-table td {
+    padding: 14px 16px;
+    font-size: var(--text-xs);
+  }
+
+  /* ---- Diagram panels on Services page ---- */
+  .diagram-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* ---- Sticky sidebar panels (e.g. "Need rail sector supply?") must not
+     float mid-page once columns stack on mobile ---- */
+  .panel[style*="sticky"] {
+    position: static !important;
+    top: auto !important;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --text-hero: 2.1rem;
+  }
+  .hero__headline {
+    font-size: 2.1rem;
+  }
+  .cta-banner__inner {
+    gap: 16px;
+  }
+  .who-we-are-card__footer {
+    grid-template-columns: 1fr 1fr !important;
   }
 }
 
