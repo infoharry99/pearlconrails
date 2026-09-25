@@ -4,118 +4,122 @@
 @section('meta_description', 'Pearlcon Rail Services is a UK-based specialist supplying, sourcing, and procurement company for the global railway sector. Serving Network Rail, HS2, London Underground, and Saudi Arabian Railway.')
 
 @section('content')
-<!-- Section 1: Hero with Left Text Content & Right AI Visualiser -->
-<section class="hero" aria-label="Hero Section">
+<!-- Section 1: Hero with Left Text Content & Right Orbital AI Card (Matching Reference Design) -->
+<section class="hero" aria-label="Hero Section" style="padding: 64px 0; background-color: #0D1F3C;">
   <div class="container">
-    <div class="hero-grid-container">
+    <div class="hero-flex-wrapper" style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; gap: 48px; width: 100%;">
       
-      <!-- LEFT SIDE: Hero Text Content -->
-      <div class="hero__content">
-        <span class="eyebrow eyebrow--lime"><i class="fa-solid fa-microchip me-1 text-lime"></i> AI-POWERED RAIL PROCUREMENT</span>
-        <h1 class="hero__headline">
+      <!-- LEFT SIDE: Hero Content (Text, Green Checkmark Features & Action Buttons) -->
+      <div class="hero-text-col" style="flex: 1 1 52%; max-width: 52%;">
+        <span class="eyebrow eyebrow--lime" style="display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: #8DC63F; margin-bottom: 16px; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase;">
+          <i class="fa-solid fa-microchip me-1"></i> AI-POWERED RAIL PROCUREMENT
+        </span>
+
+        <h1 class="hero__headline" style="font-size: clamp(2.5rem, 4.5vw, 3.75rem); line-height: 1.1; margin-bottom: 20px; font-weight: 800; color: #FFFFFF;">
           Global Rail Sourcing.<br>
-          <span class="text-lime">One AI Point of Contact.</span>
+          <span class="text-lime" style="color: #8DC63F;">One AI Point of Contact.</span>
         </h1>
-        <p class="hero__sub">
+
+        <p class="hero__sub" style="font-size: 1.1rem; color: #CBD5E1; line-height: 1.65; margin-bottom: 24px;">
           Pearlcon Rail combines advanced AI supply chain matching with 15+ years of railway engineering expertise to source equipment and spare parts across UK, US, Europe, and Middle East.
         </p>
-        <div class="btn-group">
-          <a href="{{ route('contact') }}" class="btn btn--primary btn--lg"><i class="fa-solid fa-robot me-2"></i> Request Sourcing Quote</a>
-          <a href="{{ route('services') }}" class="btn btn--outline btn--lg"><i class="fa-solid fa-gears me-2"></i> Our Services</a>
-        </div>
 
-        <!-- Hero Stats -->
-        <div class="hero-stats">
-          <div class="hero-stat-item">
-            <div class="hero-stat-item__value">5,000+</div>
-            <div class="hero-stat-item__label">Global Supplier Network</div>
-          </div>
-          <div class="hero-stat-item">
-            <div class="hero-stat-item__value">4 Markets</div>
-            <div class="hero-stat-item__label">UK · US · EU · Saudi Arabia</div>
-          </div>
-          <div class="hero-stat-item">
-            <div class="hero-stat-item__value">100%</div>
-            <div class="hero-stat-item__label">KPI Delivery Reliability</div>
-          </div>
+        
+
+        <!-- Action Buttons -->
+        <div class="btn-group" style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+          <a href="{{ route('contact') }}" class="btn btn--primary btn--lg" style="background-color: #8DC63F; color: #0D1F3C; font-weight: 700; padding: 14px 28px; border-radius: 8px; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+            Request Sourcing Quote <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="{{ route('services') }}" class="btn btn--outline btn--lg" style="border: 1.5px solid #FFFFFF; color: #FFFFFF; font-weight: 600; padding: 14px 28px; border-radius: 8px; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; text-decoration: none;">
+            <i class="fa-solid fa-gears"></i> Our Services
+          </a>
         </div>
       </div>
 
-      <!-- RIGHT SIDE: AI Visualiser & Interactive Supply Chain Card -->
-      <div class="hero-ai-wrapper reveal-on-scroll">
-        <div class="hero-ai-card">
-          <!-- Header of AI Card -->
-          <div class="hero-ai-card__top">
-            <span class="hero-ai-badge">
-              <span class="pulse-dot"></span> AI PROCUREMENT ENGINE v4.2
-            </span>
-            <span class="text-xs text-lime font-mono"><i class="fa-solid fa-signal me-1"></i> LIVE NETWORK</span>
+      <!-- RIGHT SIDE: AI Visual Card matching exact reference image -->
+      <div class="hero-ai-col reveal-on-scroll" style="flex: 1 1 44%; max-width: 44%;">
+        <div class="who-we-are-card" style="background-color: #081427; border: 1.5px solid #1E3A5F; border-radius: 18px; padding: 24px; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); position: relative; max-width: 480px; margin-left: auto;">
+          
+          <!-- Card Header (Est. 2009 & Global Procurement Active) -->
+          <div class="who-we-are-card__header" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+            <span class="badge-est" style="background: rgba(141, 198, 63, 0.15); border: 1px solid rgba(141, 198, 63, 0.4); color: #8DC63F; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; letter-spacing: 0.05em;">• Est. 2009</span>
+            <div class="who-we-are-card__status" style="display: flex; align-items: center; gap: 8px; font-size: 12px; color: #8DC63F; font-weight: 700;">
+              <span class="status-indicator" style="width: 8px; height: 8px; background-color: #8DC63F; border-radius: 50%; box-shadow: 0 0 8px #8DC63F;"></span> Global Procurement Active
+            </div>
           </div>
 
-          <!-- Central AI Neural Network & Radar Graphic -->
-          <div class="hero-ai-graphic" style="position: relative; margin: 20px 0;">
-            <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full">
+          <!-- Orbital Radar Graphic -->
+          <div class="who-we-are-card__visual" style="position: relative; margin: 16px 0;">
+            <svg class="orbital-graphic" viewBox="0 0 440 260" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;">
               <defs>
-                <radialGradient id="aiGlow" cx="50%" cy="50%" r="50%">
-                  <stop offset="0%" stop-color="#8DC63F" stop-opacity="0.4" />
+                <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#8DC63F" stop-opacity="0.45" />
                   <stop offset="100%" stop-color="#8DC63F" stop-opacity="0" />
                 </radialGradient>
+                <linearGradient id="orbitStroke" x1="0" y1="0" x2="440" y2="260" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#8DC63F" stop-opacity="0.4" />
+                  <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0.2" />
+                </linearGradient>
               </defs>
-              
-              <!-- Orbital AI Radar Rings -->
-              <ellipse cx="200" cy="110" rx="170" ry="90" stroke="rgba(141, 198, 63, 0.25)" stroke-width="1.5" stroke-dasharray="4 4"/>
-              <ellipse cx="200" cy="110" rx="110" ry="55" stroke="rgba(141, 198, 63, 0.4)" stroke-width="1.5" stroke-dasharray="3 3"/>
-              <ellipse cx="200" cy="110" rx="55" ry="30" stroke="#8DC63F" stroke-width="2"/>
 
-              <!-- Central Node -->
-              <circle cx="200" cy="110" r="28" fill="url(#aiGlow)"/>
-              <circle cx="200" cy="110" r="16" fill="#0D1F3C" stroke="#8DC63F" stroke-width="2.5"/>
-              <path d="M194 110 L206 110 M200 104 L200 116" stroke="#8DC63F" stroke-width="2"/>
+              <ellipse cx="220" cy="130" rx="200" ry="110" stroke="url(#orbitStroke)" stroke-width="1.2" stroke-dasharray="4 6" />
+              <ellipse cx="220" cy="130" rx="145" ry="75" stroke="url(#orbitStroke)" stroke-width="1.5" stroke-dasharray="3 5" />
+              <ellipse cx="220" cy="130" rx="85" ry="42" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="2 4" />
 
-              <!-- Floating AI Regional Nodes -->
-              <g transform="translate(75, 55)">
-                <circle cx="0" cy="0" r="15" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
-                <text x="0" y="4" text-anchor="middle" fill="#9EE046" font-size="9" font-weight="800">UK</text>
+              <line x1="120" y1="70" x2="220" y2="130" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+              <line x1="75" y1="165" x2="220" y2="130" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+              <line x1="330" y1="75" x2="220" y2="130" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+              <line x1="370" y1="165" x2="220" y2="130" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+              <line x1="220" y1="225" x2="220" y2="130" stroke="rgba(141, 198, 63, 0.35)" stroke-width="1.5" stroke-dasharray="3 3" />
+
+              <circle cx="220" cy="130" r="36" fill="url(#hubGlow)" />
+              <circle cx="220" cy="130" r="20" fill="#0D1F3C" stroke="#8DC63F" stroke-width="2.5" />
+              <text x="220" y="134" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="10" fill="#8DC63F" letter-spacing="1">HUB</text>
+
+              <g transform="translate(120, 70)">
+                <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">UK</text>
               </g>
 
-              <g transform="translate(325, 55)">
-                <circle cx="0" cy="0" r="15" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
-                <text x="0" y="4" text-anchor="middle" fill="#9EE046" font-size="9" font-weight="800">EU</text>
+              <g transform="translate(75, 165)">
+                <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">US</text>
               </g>
 
-              <g transform="translate(55, 160)">
-                <circle cx="0" cy="0" r="15" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
-                <text x="0" y="4" text-anchor="middle" fill="#9EE046" font-size="9" font-weight="800">US</text>
+              <g transform="translate(330, 75)">
+                <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">EU</text>
               </g>
 
-              <g transform="translate(345, 160)">
-                <circle cx="0" cy="0" r="15" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
-                <text x="0" y="4" text-anchor="middle" fill="#9EE046" font-size="9" font-weight="800">KSA</text>
+              <g transform="translate(370, 165)">
+                <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">SA</text>
               </g>
 
-              <!-- Connection Laser Lines -->
-              <line x1="75" y1="55" x2="200" y2="110" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="3 3"/>
-              <line x1="325" y1="55" x2="200" y2="110" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="3 3"/>
-              <line x1="55" y1="160" x2="200" y2="110" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="3 3"/>
-              <line x1="345" y1="160" x2="200" y2="110" stroke="rgba(141, 198, 63, 0.45)" stroke-width="1.5" stroke-dasharray="3 3"/>
+              <g transform="translate(220, 225)">
+                <circle cx="0" cy="0" r="14" fill="#162A4A" stroke="#8DC63F" stroke-width="2" />
+                <text x="0" y="4" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="9" fill="#FFFFFF">CN</text>
+              </g>
             </svg>
           </div>
 
-          <!-- AI Metrics Strip inside card -->
-          <div class="grid-3 ai-metrics-grid" style="gap: 10px; background: rgba(8, 20, 39, 0.7); padding: 14px; border-radius: 12px; border: 1px solid rgba(141, 198, 63, 0.25);">
-            <div class="text-center">
-              <div class="text-xs text-light" style="font-size: 11px;">Match Accuracy</div>
-              <div class="text-lg font-extrabold text-lime">99.8%</div>
+          <!-- Bottom 3 Metric Boxes (matching reference image) -->
+          <div class="who-we-are-card__footer" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 14px; margin-top: 10px;">
+            <div class="metric-pill" style="border: 1px solid rgba(141, 198, 63, 0.3); background: rgba(13, 31, 60, 0.6); border-radius: 8px; padding: 10px 6px; text-align: center;">
+              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 800; color: #8DC63F;">5,000+</span>
+              <span class="metric-pill__lbl" style="display: block; font-size: 10px; color: #CBD5E1; text-transform: uppercase; font-weight: 700; margin-top: 2px;">SUPPLIERS</span>
             </div>
-            <div class="text-center">
-              <div class="text-xs text-light" style="font-size: 11px;">Supplier Nodes</div>
-              <div class="text-lg font-extrabold text-white">5,000+</div>
+            <div class="metric-pill" style="border: 1px solid rgba(141, 198, 63, 0.3); background: rgba(13, 31, 60, 0.6); border-radius: 8px; padding: 10px 6px; text-align: center;">
+              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 800; color: #8DC63F;">99.8%</span>
+              <span class="metric-pill__lbl" style="display: block; font-size: 10px; color: #CBD5E1; text-transform: uppercase; font-weight: 700; margin-top: 2px;">OTIF RATE</span>
             </div>
-            <div class="text-center">
-              <div class="text-xs text-light" style="font-size: 11px;">Quote Turnaround</div>
-              <div class="text-lg font-extrabold text-amber">&lt; 24 Hrs</div>
+            <div class="metric-pill" style="border: 1px solid rgba(141, 198, 63, 0.3); background: rgba(13, 31, 60, 0.6); border-radius: 8px; padding: 10px 6px; text-align: center;">
+              <span class="metric-pill__val" style="display: block; font-family: var(--font-rail); font-size: 1.15rem; font-weight: 800; color: #8DC63F;">100%</span>
+              <span class="metric-pill__lbl" style="display: block; font-size: 10px; color: #CBD5E1; text-transform: uppercase; font-weight: 700; margin-top: 2px;">TRACEABLE</span>
             </div>
           </div>
+
         </div>
       </div>
 
