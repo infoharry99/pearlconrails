@@ -4,8 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@yield('title', 'Pearlcon Rail Services Ltd — Global Railway Procurement & Supply')</title>
-  <meta name="description" content="@yield('meta_description', 'Pearlcon Rail Services is a UK-based specialist supplying, sourcing, and procurement company for the global railway sector. Serving Network Rail, HS2, London Underground, and Saudi Arabian Railway.')">
+  <meta name="description" content="@yield('meta_description', 'Pearlcon Rail Services provides global railway procurement, component sourcing, and supply chain solutions across UK, US, Europe, and Middle East.')">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="@yield('canonical', url()->current())">
+
+  <!-- JSON-LD Structured Data (Schema.org) for SEO 100% Health -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://pearlconrail.co.uk/#organization",
+        "name": "Pearlcon Rail Services Ltd",
+        "url": "https://pearlconrail.co.uk",
+        "logo": "https://pearlconrail.co.uk/logo.svg",
+        "description": "UK-based specialist railway procurement, sourcing, and supply-chain logistics company.",
+        "telephone": "+44-1234-440530",
+        "email": "sales@pearlcon.com",
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "38F Chigwell Lane, Oakhill Industrial Estate",
+            "addressLocality": "Loughton",
+            "postalCode": "IG10 3NY",
+            "addressCountry": "UK"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Pearlcon LLC, 2996 Najd Street, Al Tubayshi",
+            "addressLocality": "Dammam",
+            "postalCode": "32233",
+            "addressCountry": "SA"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://pearlconrail.co.uk/#website",
+        "url": "https://pearlconrail.co.uk",
+        "name": "Pearlcon Rail Services",
+        "publisher": {
+          "@id": "https://pearlconrail.co.uk/#organization"
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- Google Fonts: Space Grotesk (single global font family for the whole site) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
