@@ -38,7 +38,7 @@
       <div>
         <div class="panel panel--navy panel--lime-top" style="text-align: center; padding: 48px 32px;">
           <div style="margin-bottom: 20px; display: inline-flex; align-items: center; justify-content: center; width: 64px; height: 64px; background: rgba(141,198,63,0.1); border: 1px solid var(--color-lime);">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8DC63F" stroke-width="2">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#E98423" stroke-width="2">
               <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
               <line x1="4" y1="22" x2="4" y2="15"/>
             </svg>

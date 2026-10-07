@@ -196,17 +196,17 @@
         <div style="background: rgba(13,31,60,0.8); border: 1px solid var(--color-lime); padding: 24px;">
           <svg viewBox="0 0 460 220" width="100%" height="auto" style="overflow: visible;">
             <!-- Customer Node -->
-            <rect x="15" y="80" width="95" height="50" fill="#162A4A" stroke="#8DC63F" stroke-width="2"/>
+            <rect x="15" y="80" width="95" height="50" fill="#162A4A" stroke="#E98423" stroke-width="2"/>
             <text x="62" y="110" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Customer</text>
 
             <!-- Arrow Customer -> Pearlcon -->
-            <line x1="110" y1="105" x2="165" y2="105" stroke="#8DC63F" stroke-width="2.5"/>
-            <polygon points="172,105 162,100 162,110" fill="#8DC63F"/>
+            <line x1="110" y1="105" x2="165" y2="105" stroke="#E98423" stroke-width="2.5"/>
+            <polygon points="172,105 162,100 162,110" fill="#E98423"/>
 
             <!-- Pearlcon Central Node -->
-            <rect x="175" y="65" width="125" height="80" fill="#0D1F3C" stroke="#8DC63F" stroke-width="2.5"/>
+            <rect x="175" y="65" width="125" height="80" fill="#0D1F3C" stroke="#E98423" stroke-width="2.5"/>
             <text x="237" y="100" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">PEARLCON</text>
-            <text x="237" y="120" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#8DC63F" text-anchor="middle">RAIL</text>
+            <text x="237" y="120" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" fill="#E98423" text-anchor="middle">RAIL</text>
 
             <!-- 4 Manufacturers Nodes -->
             <rect x="340" y="20" width="110" height="34" fill="#162A4A" stroke="#2A4A6B" stroke-width="1.5"/>
@@ -222,10 +222,10 @@
             <text x="395" y="192" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#CBD5E0" text-anchor="middle">Manufacturer D</text>
 
             <!-- Connections -->
-            <line x1="300" y1="85" x2="335" y2="37" stroke="#8DC63F" stroke-width="1.5"/>
-            <line x1="300" y1="95" x2="335" y2="87" stroke="#8DC63F" stroke-width="1.5"/>
-            <line x1="300" y1="115" x2="335" y2="137" stroke="#8DC63F" stroke-width="1.5"/>
-            <line x1="300" y1="125" x2="335" y2="187" stroke="#8DC63F" stroke-width="1.5"/>
+            <line x1="300" y1="85" x2="335" y2="37" stroke="#E98423" stroke-width="1.5"/>
+            <line x1="300" y1="95" x2="335" y2="87" stroke="#E98423" stroke-width="1.5"/>
+            <line x1="300" y1="115" x2="335" y2="137" stroke="#E98423" stroke-width="1.5"/>
+            <line x1="300" y1="125" x2="335" y2="187" stroke="#E98423" stroke-width="1.5"/>
           </svg>
         </div>
         <ul style="margin-top: 16px; font-size: var(--text-xs); color: #E2E8F0; list-style: square; padding-left: 20px; line-height: 1.8;">
