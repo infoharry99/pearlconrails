@@ -622,9 +622,9 @@ p:last-child {
 
 /* 8. At a Glance Bar */
 .at-a-glance {
-  background-color: var(--color-lime);
-  border-top: 1px solid var(--color-lime-bright);
-  border-bottom: 1px solid var(--color-lime-dark);
+  background-color: #ff7d00;
+  border-top: 1px solid #ff7d00;
+  border-bottom: 1px solid #ff7d00;
 }
 
 .at-a-glance__grid {
