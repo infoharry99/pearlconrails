@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Products & Sectors — Pearlcon Rail | Railway Equipment & Parts')
-@section('meta_description', 'Pearlcon Rail supplies railway equipment across electrification, rolling stock, signalling, track, station equipment, and more — sourced globally from trusted suppliers.')
+@section('meta_description', 'Source railway track components, rolling stock parts, signaling equipment, overhead line systems, and infrastructure materials.')
 
 @section('content')
 <!-- Inner Hero -->

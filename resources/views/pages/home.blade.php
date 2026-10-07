@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Pearlcon Rail Services Ltd — Global Railway Procurement & Supply')
-@section('meta_description', 'Pearlcon Rail Services is a UK-based specialist supplying, sourcing, and procurement company for the global railway sector. Serving Network Rail, HS2, London Underground, and Saudi Arabian Railway.')
+@section('meta_description', 'Pearlcon Rail Services provides global railway procurement, sourcing, and supply chain solutions across UK, US, Europe, and Middle East.')
 
 @section('content')
 <!-- Section 1: Hero with Left Text Content & Right Orbital AI Card (Matching Reference Design) -->

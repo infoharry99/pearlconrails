@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Services — Pearlcon Rail Services Ltd | Procurement, Sourcing & Consultancy')
-@section('meta_description', 'Pearlcon Rail offers global railway procurement, sourcing, supply chain management, shipping, and engineering consultancy services to rail operators worldwide.')
+@section('meta_description', 'Specialist railway supply, component procurement, engineering consultancy, and logistics services for global rail networks.')
 
 @section('content')
 <!-- Inner Hero -->

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Clients & Global Reach — Pearlcon Rail Services')
-@section('meta_description', 'Pearlcon Rail Services works with leading rail operators including Network Rail, London Underground, HS2, and Saudi Arabian Railway. Discover our global reach.')
+@section('meta_description', 'Trusted supply partner for major railway operators across Network Rail, London Underground, HS2, and Saudi Arabian Railway.')
 
 @section('content')
 <!-- Inner Hero -->
