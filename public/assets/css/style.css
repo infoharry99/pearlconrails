@@ -486,11 +486,22 @@ p:last-child {
   display: flex;
   align-items: center;
   background-color: var(--color-navy);
-  background-image: 
+  /* background-image: 
     radial-gradient(circle at 85% 20%, rgba(141, 198, 63, 0.12) 0%, transparent 40%),
     radial-gradient(circle at 15% 80%, rgba(30, 58, 95, 0.3) 0%, transparent 45%),
     repeating-linear-gradient(45deg, rgba(22, 42, 74, 0.4) 0, rgba(22, 42, 74, 0.4) 1px, transparent 0, transparent 28px),
-    linear-gradient(180deg, #0D1F3C 0%, #071324 100%);
+    linear-gradient(180deg, #0D1F3C 0%, #071324 100%); */
+    background-image:
+    radial-gradient(circle at 85% 20%, rgba(233, 132, 35, 0.18) 0%, transparent 40%),
+    radial-gradient(circle at 15% 80%, rgba(233, 132, 35, 0.12) 0%, transparent 45%),
+    repeating-linear-gradient(
+        45deg,
+        rgba(233, 132, 35, 0.08) 0,
+        rgba(233, 132, 35, 0.08) 1px,
+        transparent 0,
+        transparent 28px
+    ),
+    linear-gradient(180deg, #1A120B 0%, #0D0804 100%);
   position: relative;
   overflow: hidden;
   padding: 72px 0 48px 0;
