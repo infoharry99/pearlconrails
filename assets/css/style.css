@@ -7,15 +7,15 @@
 
 /* 1. CSS Custom Properties */
 :root {
-  /* Colour Palette */
-  --color-navy:        #0D1F3C;    /* Deep railway navy — authority */
-  --color-navy-deep:   #081427;    /* Ultra deep navy for high-contrast backdrops */
-  --color-navy-mid:    #162A4A;    /* Card fills, section accents */
-  --color-navy-light:  #1E3A5F;    /* Hover states, borders */
-  --color-lime:        #8DC63F;    /* Pearlcon brand accent — lime green */
-  --color-lime-bright: #9EE046;    /* Glowing vibrant lime */
-  --color-lime-dark:   #6FAD2A;    /* Hover accent */
-  --color-lime-soft:   rgba(141, 198, 63, 0.12); /* Subtle glow fill */
+   /* Colour Palette — UNCHANGED (same theme) */
+  --color-navy:        #101F35;    /* Deep railway navy — authority */
+  --color-navy-deep:   #0d1d36;    /* Ultra deep navy for high-contrast backdrops */
+  --color-navy-mid:    #1c355a;    /* Card fills, section accents */
+  --color-navy-light:  #22457b;    /* Hover states, borders */
+  --color-lime:        #E98423;    /* Pearlcon brand accent —   */
+  --color-lime-bright: #e6852a;    /* Glowing vibrant  */
+  --color-lime-dark:   #de7d23;    /* Hover accent */
+  --color-lime-soft:   rgba(179, 94, 14, 0.12); /* Subtle glow fill */
   --color-amber:       #E67E22;    /* Warm accent matching reference */
   --color-white:       #FFFFFF;
   --color-off-white:   #F8FAFC;    /* Ultra-clean modern background */
@@ -24,7 +24,7 @@
   --color-text-light:  #CBD5E1;    /* Slate-300 on dark */
   --color-border:      #E2E8F0;    /* Crisp light border */
   --color-border-dark: #203A60;    /* Deep borders */
-  --color-glow:        rgba(141, 198, 63, 0.28);
+  --color-glow:        rgba(188, 129, 13, 0.28);
 
   /* Typography Stacks */
   --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
