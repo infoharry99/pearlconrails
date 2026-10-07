@@ -603,9 +603,9 @@ p:last-child {
 
 /* 8. At a Glance Bar */
 .at-a-glance {
-  background-color: #ff7d00;
-  border-top: 1px solid #ff7d00;
-  border-bottom: 1px solid #ff7d00;
+  background-color: #e08b3b;
+  border-top: 1px solid #e08b3b;
+  border-bottom: 1px solid #e08b3b;
 }
 
 .at-a-glance__grid {
