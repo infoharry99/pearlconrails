@@ -15,10 +15,10 @@
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://pearlconrail.co.uk/#organization",
+        "@id": "https://pearlconrail.com/#organization",
         "name": "Pearlcon Rail Services Ltd",
-        "url": "https://pearlconrail.co.uk",
-        "logo": "https://pearlconrail.co.uk/logo.png",
+        "url": "https://pearlconrail.com",
+        "logo": "https://pearlconrail.com/logo.png",
         "description": "UK-based specialist railway procurement, sourcing, and supply-chain logistics company.",
         "telephone": "+44-1234-440530",
         "email": "sales@pearlcon.com",
@@ -41,11 +41,11 @@
       },
       {
         "@type": "WebSite",
-        "@id": "https://pearlconrail.co.uk/#website",
-        "url": "https://pearlconrail.co.uk",
+        "@id": "https://pearlconrail.com/#website",
+        "url": "https://pearlconrail.com",
         "name": "Pearlcon Rail Services",
         "publisher": {
-          "@id": "https://pearlconrail.co.uk/#organization"
+          "@id": "https://pearlconrail.com/#organization"
         }
       }
     ]

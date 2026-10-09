@@ -6,7 +6,7 @@ use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes — Pearlcon Rail Services Ltd (pearlconrail.co.uk)
+| Web Routes — Pearlcon Rail Services Ltd (pearlconrail.com)
 |--------------------------------------------------------------------------
 */
 

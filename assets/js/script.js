@@ -1,6 +1,6 @@
 /**
  * PEARLCON RAIL SERVICES LTD — Core JavaScript
- * Domain: pearlconrail.co.uk
+ * Domain: pearlconrail.com
  * Performance: Vanilla JS, zero dependencies, accessible, 60fps micro-interactions
  */
 

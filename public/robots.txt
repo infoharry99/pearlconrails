@@ -1,8 +1,8 @@
-# robots.txt for Pearlcon Rail Services Ltd (pearlconrail.co.uk)
+# robots.txt for Pearlcon Rail Services Ltd (pearlconrail.com)
 User-agent: *
 Allow: /
 Disallow: /storage/framework/
 Disallow: /vendor/
 
 # Sitemap Location
-Sitemap: https://pearlconrail.co.uk/sitemap.xml
+Sitemap: https://pearlconrail.com/sitemap.xml

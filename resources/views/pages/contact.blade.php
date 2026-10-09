@@ -113,7 +113,7 @@
             </div>
             <div style="margin-bottom: 12px;">
               <strong style="color: var(--color-white); display: block; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-lime);">Website</strong>
-              <span style="color: var(--color-text-light);">pearlconrail.co.uk</span>
+              <span style="color: var(--color-text-light);">pearlconrail.com</span>
             </div>
             <div style="margin-bottom: 12px;">
               <strong style="color: var(--color-white); display: block; font-size: var(--text-xs); text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-lime);">Fax</strong>

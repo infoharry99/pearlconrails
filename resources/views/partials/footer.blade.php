@@ -47,7 +47,7 @@
         </div>
         <div class="footer__contact-item">
           <i class="fa-solid fa-globe text-lime"></i>
-          <span>pearlconrail.co.uk</span>
+          <span>pearlconrail.com</span>
         </div>
       </div>
     </div>
