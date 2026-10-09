@@ -82,8 +82,8 @@ This repository contains the complete, production-ready website engineered in **
 │       ├── css/style.css        → Unified Design System stylesheet
 │       ├── js/script.js         → Vanilla JS (Mobile Nav, Accordion, Hero Reveal, Validation)
 │       └── img/
-│           ├── logo.svg         → High-speed train silhouette with lime accent
-│           └── favicon.svg      → Sleek rail icon
+│           ├── logo.png         → High-speed train silhouette with lime accent
+│           └── favicon.png      → Sleek rail icon
 │
 ├── composer.json                → Laravel 10/11 specifications
 ├── .env.example                 → Production configuration & mail settings

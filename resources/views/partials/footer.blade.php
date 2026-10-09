@@ -4,7 +4,7 @@
       <!-- Col 1: Company -->
       <div>
         <a href="{{ route('home') }}" aria-label="Pearlcon Rail Home">
-          <img src="{{ asset('logo.svg') }}" alt="Pearlcon Rail Services Ltd" class="footer__logo" width="240" height="48">
+          <img src="{{ asset('logo.png') }}" alt="Pearlcon Rail Services Ltd" class="footer__logo" width="240" height="48">
         </a>
         <p class="footer__tagline">AI-Driven Rail Procurement & Global Sourcing</p>
         <p class="footer__desc">

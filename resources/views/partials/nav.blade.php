@@ -1,7 +1,7 @@
 <header class="nav" role="banner">
   <div class="container nav__inner">
     <a href="{{ route('home') }}" class="nav__brand" aria-label="Pearlcon Rail Home">
-      <img src="{{ asset('logo.svg') }}" alt="Pearlcon Rail Services Ltd" class="nav__logo-svg" width="260" height="52">
+      <img src="{{ asset('logo.png') }}" alt="Pearlcon Rail Services Ltd" class="nav__logo-svg" width="260" height="52">
     </a>
 
     <nav role="navigation" aria-label="Primary Navigation">
